@@ -1,6 +1,7 @@
 class Neo
 
   attr_accessor :id, :title, :body
+
   def save
     conn = Neo.open_connection
     if(self.id)
@@ -31,23 +32,23 @@ class Neo
     conn = self.open_connection
     sql = "SELECT id,title,body FROM neo ORDER BY id DESC"
     results = conn.exec(sql)
-    posts = results.map do |post|
-      self.hydrate(post)
+    neos = results.map do |neo|
+      self.hydrate(neo)
     end
   end
 
   def self.find(id)
     conn = self.open_connection
     sql = "SELECT * FROM neo WHERE id =#{id} LIMIT 1"
-    posts = conn.exec(sql)
-    self.hydrate(posts[0])
+    neos = conn.exec(sql)
+    self.hydrate(neos[0])
   end
 
   def self.apiFind(id)
     conn = self.open_connection
     sql = "SELECT * FROM neo WHERE id =#{id} LIMIT 1"
-    posts = conn.exec(sql)
-    posts[0]
+    neos = conn.exec(sql)
+    neos[0]
   end
 
   def self.destroy(id)
@@ -56,11 +57,11 @@ class Neo
     conn.exec(sql)
   end
 
-  def self.hydrate(post_data)
-    post = Neo.new
-    post.id = post_data['id']
-    post.title = post_data['title']
-    post.body = post_data['body']
-    post
+  def self.hydrate(neo_data)
+    neo = Neo.new
+    neo.id = neo_data['id']
+    neo.title = neo_data['title']
+    neo.body = neo_data['body']
+    neo
   end
 end

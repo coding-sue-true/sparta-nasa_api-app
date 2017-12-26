@@ -10,6 +10,6 @@ require_relative './controllers/api/api_neos_controller.rb'
 use Rack::MethodOverride
 
 run Rack::Cascade.new([
-  PostsController,
+  NeosController,
   ApiNeosController
 ])

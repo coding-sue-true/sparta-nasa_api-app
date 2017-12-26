@@ -1,7 +1,11 @@
 class ApiNeosController < Sinatra::Base
 
+  get '/api/neo' do
+    @posts = HTTP.get("https://api.nasa.gov/neo/rest/v1/feed?start_date=2015-09-07&end_date=2015-09-08&api_key=DEMO_KEY").body
+  end
+
   get '/api/posts' do
-    @posts = Post.all
+    @posts = Neo.all
     content_type :json
     postsArray = []
     @posts.each do |post|
@@ -17,7 +21,7 @@ class ApiNeosController < Sinatra::Base
 
   get '/api/posts/:id' do
     id = params[:id].to_i
-    post = Post.apiFind(id)
+    post = Neo.apiFind(id)
     content_type :json
     post.to_json
   end
@@ -28,7 +32,7 @@ class ApiNeosController < Sinatra::Base
       title: data['title'],
       body: data['body']
     }
-    post = Post.api_create(new_post)
+    post = Neo.api_create(new_post)
     content_type :json
     new_post.to_json
   end
@@ -40,14 +44,14 @@ class ApiNeosController < Sinatra::Base
       title: data['title'],
       body: data['body']
     }
-    post = Post.api_update(updated_post)
+    post = Neo.api_update(updated_post)
     content_type :json
     updated_post.to_json
   end
 
   delete '/api/posts/:id'  do
     id = params[:id].to_i
-    Post.destroy(id)
+    Neo.destroy(id)
     "Post id:#{id} was deleted"
   end
 end

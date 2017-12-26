@@ -1,4 +1,4 @@
-class PostsController < Sinatra::Base
+class NeosController < Sinatra::Base
 
   # Sets root as the parent-directory of the current file
   set :root, File.join(File.dirname(__FILE__), '..')
@@ -18,7 +18,7 @@ class PostsController < Sinatra::Base
     @title = "Blog posts"
 
     # Get all the posts from our model Post. `all` is a Class method which we can call if use the class first. This is not tied to an instance but we can just use the method
-    @posts = Post.all
+    @posts = Neo.all
 
     # render our index page
     erb :'neos/index'
@@ -29,7 +29,7 @@ class PostsController < Sinatra::Base
   get '/posts/new'  do
 
     # Create a new instance of our Post object which will be empty but will allow our form partial to switch between a new and edit request
-    @post = Post.new
+    @post = Neo.new
 
     # Render the new template
     erb :'neos/new'
@@ -43,7 +43,7 @@ class PostsController < Sinatra::Base
     id = params[:id].to_i
 
     # Use the find Class method in post to retrieve the post we need and assign it to an instance variable post
-    @post = Post.find(id)
+    @post = Neo.find(id)
 
     # Render the show template
     erb :'neos/show'
@@ -54,7 +54,7 @@ class PostsController < Sinatra::Base
   post '/posts/' do
 
     # Create a new instance of our Post class
-    post = Post.new
+    post = Neo.new
 
     # Becuase we set the title and body in the models attr_accessor we can edit them from outside the object. Here we are setting the values of the title and body to be the information the user put in the form
     post.title = params[:title]
@@ -75,7 +75,7 @@ class PostsController < Sinatra::Base
     id = params[:id].to_i
 
     # We use the find Class method to get us the post we need to update
-    post = Post.find(id)
+    post = Neo.find(id)
 
     # Manipulate the the intance variables to the new data the user entered
     post.id = params[:id]
@@ -97,7 +97,7 @@ class PostsController < Sinatra::Base
     id = params[:id].to_i
 
     # We can use the Class method destroy to remove the post from the db
-    Post.destroy(id)
+    Neo.destroy(id)
 
     # Redirect to / to show all the posts
     redirect "/posts"
@@ -111,7 +111,7 @@ class PostsController < Sinatra::Base
     id = params[:id].to_i
 
     # Use the find Class method in post to retrieve the post we need and assign it to an instance variable post
-    @post = Post.find(id)
+    @post = Neo.find(id)
 
     # Render the edit template
     erb :'neos/edit'

@@ -1,8 +1,8 @@
-class Post
+class Neo
 
   attr_accessor :id, :title, :body
   def save
-    conn = Post.open_connection
+    conn = Neo.open_connection
     if(self.id)
       sql = "UPDATE neo SET title='#{self.title}', body='#{self.body}' WHERE id = #{self.id}"
     else
@@ -57,7 +57,7 @@ class Post
   end
 
   def self.hydrate(post_data)
-    post = Post.new
+    post = Neo.new
     post.id = post_data['id']
     post.title = post_data['title']
     post.body = post_data['body']

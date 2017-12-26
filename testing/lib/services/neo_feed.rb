@@ -15,7 +15,10 @@ class NeoFeedService
     @neo_feed_data = JSON.parse(self.class.get("/feed?start_date=#{start_date}&end_date=#{end_date}&api_key=#{api_key}").body)
   end
 
+  def get_neo_feed_links
+    @neo_browse_data['links']
+  end
 end
 
-# x = NeoFeedService.new
-# puts x.get_neo_feed_results('2017-12-22', '2017-12-25')
+x = NeoFeedService.new
+puts x.get_neo_feed_links

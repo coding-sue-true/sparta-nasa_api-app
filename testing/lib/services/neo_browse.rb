@@ -15,7 +15,8 @@ class NeoBrowseService
     @neo_browse_data = JSON.parse(self.class.get("/neo/browse?api_key=#{api_key}").body)
   end
 
+
+
 end
 
 # x = NeoBrowseService.new
-# puts x.get_neo_browse_results

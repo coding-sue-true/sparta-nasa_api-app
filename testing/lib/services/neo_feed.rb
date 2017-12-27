@@ -16,9 +16,13 @@ class NeoFeedService
   end
 
   def get_neo_feed_links
-    @neo_browse_data['links']
+    @neo_feed_data['links']
+  end
+
+  def get_neo_feed_elementcount
+    @neo_feed_data['element_count']
   end
 end
 
-x = NeoFeedService.new
-puts x.get_neo_feed_links
+# x = NeoFeedService.new
+# puts x.get_neo_feed_results('2017-12-22', '2017-12-25')

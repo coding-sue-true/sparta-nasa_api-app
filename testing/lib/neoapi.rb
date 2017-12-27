@@ -17,3 +17,6 @@ class Neoapi
   end
 
 end
+
+# x = Neoapi.new
+# x.neo_feed_service.get_neo_feed_results('2017-12-22', '2017-12-25')

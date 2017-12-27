@@ -17,5 +17,5 @@ class NeoLookupService
 
 end
 
-x = NeoLookupService.new
-puts x.get_neo_lookup_results('3542519')
+# x = NeoLookupService.new
+# puts x.get_neo_lookup_results('3542519')

@@ -1,4 +1,8 @@
+require 'httparty'
+require 'json'
+
 class NeosController < Sinatra::Base
+  # include HTTParty
 
   # Sets root as the parent-directory of the current file
   set :root, File.join(File.dirname(__FILE__), '..')
@@ -12,6 +16,13 @@ class NeosController < Sinatra::Base
   end
 
   # A get request to the / route will respond with our index template with all the posts from the model
+  get '/' do
+    @api_key = 'FXW5DqId77kw3C1aWGQAAje4g2uIwMWs9SPjm8rR'
+    @image_today = HTTParty.get("https://api.nasa.gov/planetary/apod?api_key=#{@api_key}")
+
+    erb :'neos/home'
+  end
+
   get '/posts' do
 
     # Page title

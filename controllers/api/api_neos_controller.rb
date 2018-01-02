@@ -5,7 +5,11 @@ class ApiNeosController < Sinatra::Base
   end
 
   # get '/' do
-  #   @posts = HTTP.get("https://api.nasa.gov/planetary/apod?api_key=FXW5DqId77kw3C1aWGQAAje4g2uIwMWs9SPjm8rR").body
+  #   # @posts = HTTP.get("https://api.nasa.gov/planetary/apod?api_key=FXW5DqId77kw3C1aWGQAAje4g2uIwMWs9SPjm8rR").body
+  #   @today = Time.now.strftime("%Y-%m-%d")
+  #   @api_key = 'FXW5DqId77kw3C1aWGQAAje4g2uIwMWs9SPjm8rR'
+  #   @neo_feed_data = HTTParty.get("https://api.nasa.gov/neo/rest/v1/feed?start_date=#{@today}&end_date=#{@today}&api_key=#{@api_key}").parsed_response
+  #
   #   erb :'neos/home'
   # end
 

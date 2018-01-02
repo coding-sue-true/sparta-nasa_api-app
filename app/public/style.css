@@ -1,3 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
 body {
   background-color: black;
+  font-family: Playfair Display;
+}
+
+#nav_bar {
+  padding: 20px;
+}
+
+#background_image {
+  text-align: center;
+}
+
+#background_image h2 {
+  color: white;
+}
+
+#background_image p {
+}
+
+#explanation {
+  text-decoration: none;
+  width: 80%;
+  color: white;
+  padding-left: 23%;
+  text-align: justify;
+  line-height: 25px;
+  word-spacing: 3px;
 }

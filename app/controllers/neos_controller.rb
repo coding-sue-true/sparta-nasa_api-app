@@ -17,10 +17,15 @@ class NeosController < Sinatra::Base
 
   # A get request to the / route will respond with our index template with all the posts from the model
   get '/' do
+    @title = 'NASA'
     @api_key = 'FXW5DqId77kw3C1aWGQAAje4g2uIwMWs9SPjm8rR'
     @image_today = HTTParty.get("https://api.nasa.gov/planetary/apod?api_key=#{@api_key}")
 
-    erb :'neos/home'
+    erb :'neos/index'
+  end
+
+  get '/asteroids' do
+
   end
 
   get '/posts' do

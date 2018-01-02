@@ -1,4 +1,4 @@
-<div id="carousel" class="carousel slide" data-ride="carousel">
+<!-- <div id="carousel" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img class="d-block w-100" src="images/bahamas.jpg" alt="nasa_1">
@@ -18,8 +18,42 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-</div>
+</div> -->
+<!-- # <%= @asteroids['links'] %> -->
+<% near_earth_objects = @asteroids['near_earth_objects'] %>
+<% neos_info = near_earth_objects[@date_today][0] %>
+<% neo_size = neos_info['estimated_diameter'] %>
+<% neo_approach_info = neos_info['close_approach_data'][0] %>
+
+
+
 <div class="asteroids">
-  
+  <div class="list-group">
+  <a href="<%= neos_info['nasa_jpl_url'] %>" target="_blank" class="list-group-item list-group-item-action flex-column align-items-start active">
+    <div class="d-flex w-100 justify-content-between">
+      <h4 class="mb-1">Name: <%= neos_info['name'] %></h4>
+      <h5>ID: <%= neos_info['neo_reference_id'] %></h5>
+    </div>
+    <p class="mb-1">Diameter: <%= neo_size['meters']['estimated_diameter_max']%> meters</p>
+    <p class="mb-1">Speed: <%= neo_approach_info['relative_velocity']['miles_per_hour'] %> mph | <%= neo_approach_info['relative_velocity']['kilometers_per_second'] %> km/s</p>
+    <small>It missed <%= neo_approach_info['orbiting_body'] %>'s surface by <%= neo_approach_info['miss_distance']['miles'] %> miles</small>
+  </a>
+  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">List group item heading</h5>
+      <small class="text-muted">3 days ago</small>
+    </div>
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+    <small class="text-muted">Donec id elit non mi porta.</small>
+  </a>
+  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">List group item heading</h5>
+      <small class="text-muted">3 days ago</small>
+    </div>
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+    <small class="text-muted">Donec id elit non mi porta.</small>
+  </a>
+</div>
 
 </div>

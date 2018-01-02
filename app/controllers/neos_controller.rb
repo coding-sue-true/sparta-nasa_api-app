@@ -27,6 +27,9 @@ class NeosController < Sinatra::Base
   get '/asteroids' do
     @title = 'NASA'
     @api_key = 'FXW5DqId77kw3C1aWGQAAje4g2uIwMWs9SPjm8rR'
+    @date_today = Time.now.strftime("%Y-%m-%d")
+    feed_api_info = HTTParty.get("https://api.nasa.gov/neo/rest/v1/feed?start_date=#{@date_today}&end_date=#{@date_today}&api_key=#{@api_key}")
+    @asteroids = feed_api_info.parsed_response
 
     erb :"neos/asteroids"
 

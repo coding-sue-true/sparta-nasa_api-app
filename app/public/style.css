@@ -9,15 +9,14 @@ body {
   padding: 20px;
 }
 
+/*-------------------HOME PAGE---------------*/
+
 #background_image {
   text-align: center;
 }
 
 #background_image h2 {
   color: white;
-}
-
-#background_image p {
 }
 
 #explanation {
@@ -29,3 +28,5 @@ body {
   line-height: 25px;
   word-spacing: 3px;
 }
+
+/*-------------------ASTEROIDS PAGE-----------------*/

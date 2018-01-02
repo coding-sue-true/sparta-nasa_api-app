@@ -25,7 +25,15 @@ class NeosController < Sinatra::Base
   end
 
   get '/asteroids' do
+    @title = 'NASA'
+    @api_key = 'FXW5DqId77kw3C1aWGQAAje4g2uIwMWs9SPjm8rR'
 
+    erb :"neos/asteroids"
+
+  end
+
+  get '/api/neos' do
+    @posts = HTTP.get("https://api.nasa.gov/neo/rest/v1/feed?start_date=2015-09-07&end_date=2015-09-08&api_key=DEMO_KEY").body
   end
 
   get '/posts' do

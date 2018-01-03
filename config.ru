@@ -11,5 +11,6 @@ require_relative './app/controllers/articles_controller.rb'
 use Rack::MethodOverride
 
 run Rack::Cascade.new([
-  NeosApiController
+  NeosApiController,
+  ArticlesController
 ])

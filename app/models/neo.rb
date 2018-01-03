@@ -1,67 +1,49 @@
-class Neo
+class Article
 
-  attr_accessor :id, :title, :body
+  attr_accessor :id, :title, :body, :image
 
   def save
-    conn = Neo.open_connection
+    conn = Article.open_connection
     if(self.id)
-      sql = "UPDATE neo SET title='#{self.title}', body='#{self.body}' WHERE id = #{self.id}"
+      sql = "UPDATE article SET title='#{self.title}', body='#{self.body}', image='#{self.image}' WHERE id = #{self.id}"
     else
-      sql = "INSERT INTO neo (title, body) VALUES ('#{self.title}', '#{self.body}')"
+      sql = "INSERT INTO article (title, body, image) VALUES ('#{self.title}', '#{self.body}', '#{self.image}')"
     end
     conn.exec(sql)
   end
 
-  def self.api_create(post)
-    conn = self.open_connection
-    sql = "INSERT INTO neo (title , body) VALUES ( '#{post[:title]}', '#{post[:body]}')"
-    conn.exec(sql)
-  end
-
-  def self.api_update(post)
-    conn = self.open_connection
-    sql = "UPDATE neo SET title='#{post[:title]}', body='#{post[:body]}' WHERE id = #{post[:id]}"
-    conn.exec(sql)
-  end
-
   def self.open_connection
-    conn = PG.connect(dbname: "neonasa")
+    conn = PG.connect(dbname: "articles")
   end
 
   def self.all
     conn = self.open_connection
-    sql = "SELECT id,title,body FROM neo ORDER BY id DESC"
+    sql = "SELECT id,title,body,image FROM article ORDER BY id DESC"
     results = conn.exec(sql)
-    neos = results.map do |neo|
-      self.hydrate(neo)
+    articles = results.map do |article|
+      self.hydrate(article)
     end
   end
 
   def self.find(id)
     conn = self.open_connection
-    sql = "SELECT * FROM neo WHERE id =#{id} LIMIT 1"
-    neos = conn.exec(sql)
-    self.hydrate(neos[0])
-  end
-
-  def self.apiFind(id)
-    conn = self.open_connection
-    sql = "SELECT * FROM neo WHERE id =#{id} LIMIT 1"
-    neos = conn.exec(sql)
-    neos[0]
+    sql = "SELECT * FROM article WHERE id =#{id} LIMIT 1"
+    articles = conn.exec(sql)
+    self.hydrate(articles[0])
   end
 
   def self.destroy(id)
     conn = self.open_connection
-    sql = "DELETE FROM neo WHERE id = #{id}"
+    sql = "DELETE FROM article WHERE id = #{id}"
     conn.exec(sql)
   end
 
-  def self.hydrate(neo_data)
-    neo = Neo.new
-    neo.id = neo_data['id']
-    neo.title = neo_data['title']
-    neo.body = neo_data['body']
-    neo
+  def self.hydrate(article_data)
+    article = Article.new
+    article.id = article_data['id']
+    article.title = article_data['title']
+    article.body = article_data['body']
+    article.image = article_data['image']
+    article
   end
 end

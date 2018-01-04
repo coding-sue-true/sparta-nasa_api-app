@@ -129,5 +129,92 @@ describe Neoapi do
       expect(@neoapi.get_feet_estimated_diameter_max).to be_kind_of(Float)
     end
 
+    it "Near Earth Objects is potentially hazardous to respond as a boolean" do
+      expect(@neoapi.get_potentially_hazardous).to be_truthy.or be_falsy
+    end
+
+    it "Near Earth Objects close approach data to respond as a Array" do
+      expect(@neoapi.get_close_approach_data).to be_kind_of(Array)
+    end
+
+    it "Near Earth Objects orbital data to respond as a Hash of results" do
+      expect(@neoapi.get_orbital_data).to be_kind_of(Hash)
+    end
+
+    it "Near Earth Objects orbital id to respond as a String" do
+      expect(@neoapi.get_orbit_id).to be_kind_of(String)
+    end
+
+    it "Near Earth Objects orbital determination date to respond as a String" do
+      expect(@neoapi.get_orbit_determin_date).to be_kind_of(String)
+    end
+
+    it "Near Earth Objects orbital uncertainty to respond as a String" do
+      expect(@neoapi.get_orbit_uncertainty).to be_kind_of(String)
+    end
+
+    it "Near Earth Objects orbit minimun intersection to respond as a String" do
+      expect(@neoapi.get_orbit_min_intersec).to be_kind_of(String)
+    end
+
+    it "Near Earth Objects jupiter tisserand invariant to respond as a String" do
+      expect(@neoapi.get_jupiter_tisserand_inv).to be_kind_of(String)
+    end
+
+    it "Near Earth Objects epoch_osculation to respond as a String" do
+      expect(@neoapi.get_epoch).to be_kind_of(String)
+    end
+
+    it "Near Earth Objects eccentricity to respond as a String" do
+      expect(@neoapi.get_eccentricity).to be_kind_of(String)
+    end
+
+    it "Near Earth Objects semi_major_axis to respond as a String" do
+      expect(@neoapi.get_semi_major_axis).to be_kind_of(String)
+    end
+
+    it "Near Earth Objects inclination to respond as a String" do
+      expect(@neoapi.get_inclination).to be_kind_of(String)
+    end
+
+    it "Near Earth Objects ascending_node_longitude to respond as a String" do
+      expect(@neoapi.get_ascending_node_long).to be_kind_of(String)
+    end
+
+    it "Near Earth Objects orbital period to respond as a String" do
+      expect(@neoapi.get_orbital_period).to be_kind_of(String)
+    end
+
+    it "Near Earth Objects perihelion_distance to respond as a String" do
+      expect(@neoapi.get_perihelion_distance).to be_kind_of(String)
+    end
+
+    it "Near Earth Objects perihelion_argument to respond as a String" do
+      expect(@neoapi.get_perihelion_argument).to be_kind_of(String)
+    end
+
+    it "Near Earth Objects aphelion_distance to respond as a String" do
+      expect(@neoapi.get_aphelion_distance).to be_kind_of(String)
+    end
+
+    it "Near Earth Objects perihelion_time to respond as a String" do
+      expect(@neoapi.get_perihelion_time).to be_kind_of(String)
+    end
+
+    it "Near Earth Objects mean_anomaly to respond as a String" do
+      expect(@neoapi.get_mean_anomaly).to be_kind_of(String)
+    end
+
+    it "Near Earth Objects mean_motion to respond as a String" do
+      expect(@neoapi.get_mean_motion).to be_kind_of(String)
+    end
+
+    it "Near Earth Objects equinox to respond as a String" do
+      expect(@neoapi.get_equinox).to be_kind_of(String)
+    end
+
+    it "Near Earth Objects orbital id to respond as a String" do
+      expect(@neoapi.get_orbit_id).to be_kind_of(String)
+    end
   end
 end

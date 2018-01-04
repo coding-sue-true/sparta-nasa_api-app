@@ -135,8 +135,87 @@ class NeoBrowseService
     get_feet['estimated_diameter_max']
   end
 
+  def get_potentially_hazardous
+    get_near_earth_objects[0]['is_potentially_hazardous_asteroid']
+  end
 
+  def get_close_approach_data
+    get_near_earth_objects[0]['close_approach_data']
+  end
 
+  def get_orbital_data
+    get_near_earth_objects[0]['orbital_data']
+  end
 
+  def get_orbit_id
+    get_orbital_data['orbit_id']
+  end
 
+  def get_orbit_determin_date
+    get_orbital_data['orbit_determination_date']
+  end
+
+  def get_orbit_uncertainty
+    get_orbital_data['orbit_uncertainty']
+  end
+
+  def get_orbit_min_intersec
+    get_orbital_data['minimum_orbit_intersection']
+  end
+
+  def get_jupiter_tisserand_inv
+    get_orbital_data['jupiter_tisserand_invariant']
+  end
+
+  def get_epoch
+    get_orbital_data['epoch_osculation']
+  end
+
+  def get_eccentricity
+    get_orbital_data['eccentricity']
+  end
+
+  def get_semi_major_axis
+    get_orbital_data['semi_major_axis']
+  end
+
+  def get_inclination
+    get_orbital_data['inclination']
+  end
+
+  def get_ascending_node_long
+    get_orbital_data['ascending_node_longitude']
+  end
+
+  def get_orbital_period
+    get_orbital_data['orbital_period']
+  end
+
+  def get_perihelion_distance
+    get_orbital_data['perihelion_distance']
+  end
+
+  def get_perihelion_argument
+    get_orbital_data['perihelion_argument']
+  end
+
+  def get_aphelion_distance
+    get_orbital_data['aphelion_distance']
+  end
+
+  def get_perihelion_time
+    get_orbital_data['perihelion_time']
+  end
+
+  def get_mean_anomaly
+    get_orbital_data['mean_anomaly']
+  end
+
+  def get_mean_motion
+    get_orbital_data['mean_motion']
+  end
+
+  def get_equinox
+    get_orbital_data['equinox']
+  end
 end

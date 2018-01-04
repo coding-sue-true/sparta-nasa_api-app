@@ -99,7 +99,86 @@ class NeoFeedService
     get_meters['estimated_diameter_max']
   end
 
-  
+  def get_miles
+    get_neo_estimated_diameter['miles']
+  end
+
+  def get_miles_estimated_diameter_min
+    get_miles['estimated_diameter_min']
+  end
+
+  def get_miles_estimated_diameter_max
+    get_miles['estimated_diameter_max']
+  end
+
+  def get_feet
+    get_neo_estimated_diameter['feet']
+  end
+
+  def get_feet_estimated_diameter_min
+    get_feet['estimated_diameter_min']
+  end
+
+  def get_feet_estimated_diameter_max
+    get_feet['estimated_diameter_max']
+  end
+
+  def get_potentially_hazardous
+    get_date[0]['is_potentially_hazardous_asteroid']
+  end
+
+  def get_close_approach_info
+    get_date[0]['close_approach_data']
+  end
+
+  def get_close_approach_date
+    get_close_approach_info[0]['close_approach_date']
+  end
+
+  def get_epoch_date
+    get_close_approach_info[0]['epoch_date_close_approach']
+  end
+
+  def get_relative_velocity
+    get_close_approach_info[0]['relative_velocity']
+  end
+
+  def get_km_s
+    get_relative_velocity['kilometers_per_second']
+  end
+
+  def get_km_h
+    get_relative_velocity['kilometers_per_hour']
+  end
+
+  def get_mph
+    get_relative_velocity['miles_per_hour']
+  end
+
+  def get_miss_distance
+    get_close_approach_info[0]['miss_distance']
+  end
+
+  def get_astronomical
+    get_miss_distance['astronomical']
+  end
+
+  def get_lunar
+    get_miss_distance['lunar']
+  end
+
+  def get_kilometers
+    get_miss_distance['kilometers']
+  end
+
+  def get_distance_miles
+    get_miss_distance['miles']
+  end
+
+  def get_orbiting_body
+    get_close_approach_info[0]['orbiting_body']
+  end
+
 end
 
 # x = NeoFeedService.new

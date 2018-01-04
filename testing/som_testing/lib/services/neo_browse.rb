@@ -12,7 +12,27 @@ class NeoBrowseService
   end
 
   def get_neo_browse_results
-    @neo_browse_data = JSON.parse(self.class.get("/neo/browse?api_key=#{api_key}").body)
+    @neo_browse_data = JSON.parse(self.class.get("/neo/browse?page=1&size=20&api_key=#{api_key}").body)
+  end
+
+  def get_neo_browse_all
+    @neo_browse_data
+  end
+
+  def get_neo_browse_links
+    @neo_browse_data['links']
+  end
+
+  def get_next
+    get_neo_browse_links['next']
+  end
+
+  def get_prev
+    get_neo_browse_links['prev']
+  end
+
+  def get_self
+    get_neo_browse_links['self']
   end
 
 

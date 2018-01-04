@@ -12,8 +12,25 @@ class NeoLookupService
   end
 
   def get_neo_lookup_results(id)
-    @neo_feed_data = JSON.parse(self.class.get("/neo/#{id}?api_key=#{api_key}").body)
+    @neo_lookup_data = JSON.parse(self.class.get("/neo/#{id}?api_key=#{api_key}").body)
   end
+
+  def get_neo_lookup_all
+    @neo_lookup_data
+  end
+
+  def get_neo_lookup_links
+    @neo_lookup_data['links']
+  end
+
+  def get_self
+    get_neo_lookup_links['self']
+  end
+
+  def get_neo_reference_id
+    get_neo_lookup_all['neo_reference_id']
+  end
+
 
 end
 

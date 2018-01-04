@@ -180,6 +180,3 @@ class NeoFeedService
   end
 
 end
-
-# x = NeoFeedService.new
-# puts x.get_neo_feed_results('2017-12-22', '2017-12-25')

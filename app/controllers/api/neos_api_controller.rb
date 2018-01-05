@@ -15,7 +15,7 @@ class NeosApiController < Sinatra::Base
       register Sinatra::Reloader
   end
 
-  # A get request to the / route will respond with our index template with all the posts from the model
+  # A get request to the / route will respond with our index with NASA's picture of the day (consumed from their API)
   get '/' do
     @title = 'NASA'
     @api_key = 'FXW5DqId77kw3C1aWGQAAje4g2uIwMWs9SPjm8rR'
@@ -34,8 +34,4 @@ class NeosApiController < Sinatra::Base
     erb :"neos/asteroids"
 
   end
-
-  # get '/api/neos' do
-  #   @posts = HTTP.get("https://api.nasa.gov/neo/rest/v1/feed?start_date=2015-09-07&end_date=2015-09-08&api_key=DEMO_KEY").body
-  # end
 end

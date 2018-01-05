@@ -12,5 +12,4 @@ end
 
 Then("I can see a new page from NASA with more detailed info about it") do
   nasa_asteroids_page.nasa_asteroid_info_page
-  sleep 10
 end

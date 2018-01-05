@@ -178,5 +178,4 @@ class NeoFeedService
   def get_orbiting_body
     get_close_approach_info[0]['orbiting_body']
   end
-
 end

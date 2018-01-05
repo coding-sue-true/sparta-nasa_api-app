@@ -144,7 +144,5 @@ describe Neoapi do
     it "Near Earth Objects orbiting body to respond as a string" do
       expect(@neoapi.get_orbiting_body).to be_kind_of(String)
     end
-
-
   end
 end

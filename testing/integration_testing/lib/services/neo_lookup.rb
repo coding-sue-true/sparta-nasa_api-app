@@ -150,9 +150,4 @@ class NeoLookupService
   def get_orbiting_body
     get_close_approach_info[0]['orbiting_body']
   end
-
-
 end
-
-# x = NeoLookupService.new
-# puts x.get_neo_lookup_results('3542519')

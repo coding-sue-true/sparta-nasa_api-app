@@ -4,5 +4,5 @@
 <a href="/articles/<%= @article.id %>/edit">edit</a>
 <form action="/articles/<%= @article.id %>" method="POST">
   <input type="hidden" name="_method" value="DELETE">
-  <input type="submit" name="name" value="Delete">
+  <input type="submit" name="name" value="Delete" id="deletebtn">
 </form>

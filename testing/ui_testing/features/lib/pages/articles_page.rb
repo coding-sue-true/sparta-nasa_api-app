@@ -1,18 +1,16 @@
 require 'capybara'
 
-class NasaAsteroidsPage
+class NasaArticlesPage
   include Capybara::DSL
 
-  def index_page
-    visit('/')
+  INDEX_PAGE = '#indexpage' unless const_defined?(:INDEX_PAGE)
+
+  def find_index_page
+    find(INDEX_PAGE)
   end
 
-  def sign_in_link
-    click_link('Sign in')
-  end
-
-  def click_sign_in_link
-    sign_in_link.click
+  def click_index_page
+    find_index_page.click
   end
 
 end

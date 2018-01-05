@@ -10,8 +10,12 @@ class NasaIndexPage
     visit(HOMEPAGE_URL)
   end
 
-  def asteroids_page
-    click_link(ASTEROIDS_PAGE)
+  def find_asteroids_page
+    find(ASTEROIDS_PAGE)
+  end
+
+  def click_asteroids_page
+    find_asteroids_page.click
   end
 
 end

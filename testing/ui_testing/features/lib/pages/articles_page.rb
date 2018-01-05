@@ -15,6 +15,7 @@ class NasaArticlesPage
   SUBMIT_BTN = 'submitbtn'
   ARTICLE_SHOW_ID = '#articleshow'
   DELETE_BTN = 'deletebtn'
+  EDIT_ARTICLE_ID = '#editarticle'
 
   def find_index_page
     find(INDEX_PAGE)
@@ -54,6 +55,14 @@ class NasaArticlesPage
 
   def click_delete_button
     find_button(DELETE_BTN).click
+  end
+
+  def find_edit
+    find(EDIT_ARTICLE_ID)
+  end
+
+  def click_edit_article
+    find_edit.click
   end
 
 end

@@ -1,19 +1,20 @@
 Given("I am on the all articles page") do
-  pending # Write code here that turns the phrase above into concrete actions
+  nasa_articles_page.articles_page
 end
 
 When("I choose an article") do
-  pending # Write code here that turns the phrase above into concrete actions
+  nasa_articles_page.click_article
 end
 
 And("I press edit") do
-  pending # Write code here that turns the phrase above into concrete actions
+  nasa_articles_page.click_edit_article
 end
 
 When("I change the title") do
-  pending # Write code here that turns the phrase above into concrete actions
+  nasa_articles_page.insert_title("EDITED TITLE")
+  nasa_articles_page.click_submit_button
 end
 
 Then("I can see a new title for that article") do
-  pending # Write code here that turns the phrase above into concrete actions
+  nasa_articles_page.articles_page
 end

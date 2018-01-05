@@ -6,6 +6,7 @@ class NasaAsteroidsPage
   ASTEROIDS_PAGE = '#asteroidspage' unless const_defined?(:ASTEROIDS_PAGE)
   ARTICLES_PAGE = '#articles' unless const_defined?(:ARTICLES_PAGE)
   ALL_ARTICLES_PAGE = '#articlespage' unless const_defined?(:ALL_ARTICLES_PAGE)
+  NEW_ARTICLE_PAGE = '#newarticle' unless const_defined?(:ASTEROID_LINK)
   ASTEROID_LINK = '#asteroidlink' unless const_defined?(:ASTEROID_LINK)
   NASA_ASTEROID_PAGE = 'https://ssd.jpl.nasa.gov/sbdb.cgi?sstr='
 
@@ -23,6 +24,14 @@ class NasaAsteroidsPage
 
   def click_articles_page
     find_articles_page.click
+  end
+
+  def find_new_article_page
+    find(NEW_ARTICLE_PAGE)
+  end
+
+  def click_new_article
+    find_new_article_page.click
   end
 
   def find_all_articles_page

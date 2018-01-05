@@ -13,6 +13,8 @@ class NasaArticlesPage
   BODY_FIELD_ID = 'articlebody'
   IMAGE_FIELD_ID = 'articleimage'
   SUBMIT_BTN = 'submitbtn'
+  ARTICLE_SHOW_ID = '#articleshow'
+  DELETE_BTN = 'deletebtn'
 
   def find_index_page
     find(INDEX_PAGE)
@@ -40,6 +42,18 @@ class NasaArticlesPage
 
   def articles_page
     visit(ARTICLES_URL)
+  end
+
+  def find_article
+    find(ARTICLE_SHOW_ID)
+  end
+
+  def click_article
+    find_article.click
+  end
+
+  def click_delete_button
+    find_button(DELETE_BTN).click
   end
 
 end

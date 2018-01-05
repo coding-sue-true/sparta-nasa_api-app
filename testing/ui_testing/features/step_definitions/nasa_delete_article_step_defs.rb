@@ -1,15 +1,15 @@
 Given("I am on the articles page") do
-  pending # Write code here that turns the phrase above into concrete actions
+  nasa_articles_page.articles_page
 end
 
 And("I click on an article") do
-  pending # Write code here that turns the phrase above into concrete actions
+  nasa_articles_page.click_article
 end
 
 When("I click delete") do
-  pending # Write code here that turns the phrase above into concrete actions
+  nasa_articles_page.click_delete_button
 end
 
 Then("I can no longer see that article in my articles page") do
-  pending # Write code here that turns the phrase above into concrete actions
+  nasa_articles_page.articles_page
 end

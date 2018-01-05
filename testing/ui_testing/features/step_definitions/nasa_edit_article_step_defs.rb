@@ -1,8 +1,8 @@
-Given("I am on the articles page") do
+Given("I am on the all articles page") do
   pending # Write code here that turns the phrase above into concrete actions
 end
 
-When("I click on an article") do
+When("I choose an article") do
   pending # Write code here that turns the phrase above into concrete actions
 end
 

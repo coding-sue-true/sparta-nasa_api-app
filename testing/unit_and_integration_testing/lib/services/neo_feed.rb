@@ -44,138 +44,272 @@ class NeoFeedService
   end
 
   def get_date
-    get_neo_feed_neo['2017-12-22']
+    dates = DateTime.now()
+    @date_today = dates.strftime("%Y-%m-%d")
+    get_neo_feed_neo[@date_today.to_s]
   end
 
   def get_date_links
-    get_date[0]['links']
+    links = []
+    get_date.each do |x|
+      links << x['links']
+    end
+    links
   end
 
   def get_date_self
-    get_date_links['self']
+    self_links = []
+    get_date_links.each do |x|
+      self_links << x['self']
+    end
+    self_links
   end
 
   def get_neo_reference_id
-    get_date[0]['neo_reference_id']
+    ref_id = []
+    get_date.each do |x|
+      ref_id << x['neo_reference_id']
+    end
+    ref_id
   end
 
   def get_neo_name
-    get_date[0]['name']
+    name = []
+    get_date.each do |x|
+      name << x['name']
+    end
+    name
   end
 
   def get_neo_nasa_jpl_url
-    get_date[0]['nasa_jpl_url']
+    jpl_url = []
+    get_date.each do |x|
+      jpl_url << x['nasa_jpl_url']
+    end
+    jpl_url
   end
 
   def get_neo_absolute_magnitude_h
-    get_date[0]['absolute_magnitude_h']
+    magnitude = []
+    get_date.each do |x|
+      magnitude << x['absolute_magnitude_h']
+    end
+    magnitude
   end
 
   def get_neo_estimated_diameter
-    get_date[0]['estimated_diameter']
+    diameter = []
+    get_date.each do |x|
+      diameter = x['estimated_diameter']
+    end
+    diameter
   end
 
   def get_km
-    get_neo_estimated_diameter['kilometers']
+    km = []
+    get_neo_estimated_diameter.each do |x|
+      km << x['kilometers']
+    end
+    km
   end
 
   def get_km_estimated_diameter_min
-    get_km['estimated_diameter_min']
+    km_min = []
+    get_km.each do |x|
+      km_min << x['estimated_diameter_min']
+    end
+    km_min
   end
 
   def get_km_estimated_diameter_max
-    get_km['estimated_diameter_max']
+    km_max = []
+    get_km.each do |x|
+      km_max << x['estimated_diameter_max']
+    end
+    km_max
   end
 
   def get_meters
-    get_neo_estimated_diameter['meters']
+    m = []
+    get_neo_estimated_diameter.each do |x|
+      m << x['meters']
+    end
+    m
   end
 
   def get_meters_estimated_diameter_min
-    get_meters['estimated_diameter_min']
+    m_min = []
+    get_meters.each do |x|
+      m_min << x['estimated_diameter_min']
+    end
+    m_min
   end
 
   def get_meters_estimated_diameter_max
-    get_meters['estimated_diameter_max']
+    m_max = []
+    get_meters.each do |x|
+      m_max << x['estimated_diameter_max']
+    end
+    m_max
   end
 
   def get_miles
-    get_neo_estimated_diameter['miles']
+    miles = []
+    get_neo_estimated_diameter.each do |x|
+      miles << x['miles']
+    end
+    miles
   end
 
   def get_miles_estimated_diameter_min
-    get_miles['estimated_diameter_min']
+    miles_min = []
+    get_miles.each do |x|
+      miles_min << x['estimated_diameter_min']
+    end
+    miles_min
   end
 
   def get_miles_estimated_diameter_max
-    get_miles['estimated_diameter_max']
+    miles_max =[]
+    get_miles.each do |x|
+      miles_mex << x['estimated_diameter_max']
+    end
+    miles_max
   end
 
   def get_feet
-    get_neo_estimated_diameter['feet']
+    feet = []
+    get_neo_estimated_diameter.each do |x|
+      feet << x['feet']
+    end
+    feet
   end
 
   def get_feet_estimated_diameter_min
-    get_feet['estimated_diameter_min']
+    feet_min = []
+    get_feet.each do |x|
+      feet_min << x['estimated_diameter_min']
+    end
+    feet_min
   end
 
   def get_feet_estimated_diameter_max
-    get_feet['estimated_diameter_max']
+    feet_max = []
+    get_feet.each do |x|
+      feet_max << x['estimated_diameter_max']
+    end
+    feet_max
   end
 
   def get_potentially_hazardous
-    get_date[0]['is_potentially_hazardous_asteroid']
+    hazard = []
+    get_date.each do |x|
+      hazard << x['is_potentially_hazardous_asteroid']
+    end
+    hazard
   end
 
   def get_close_approach_info
-    get_date[0]['close_approach_data']
+    approach_info = []
+    get_date.each do |x|
+      approach_info << x['close_approach_data']
+    end
+    approach_info
   end
 
   def get_close_approach_date
-    get_close_approach_info[0]['close_approach_date']
+    approach_date = []
+    get_close_approach_info.each do |x|
+      approach_date << x[0]['close_approach_date']
+    end
+    approach_date
   end
 
   def get_epoch_date
-    get_close_approach_info[0]['epoch_date_close_approach']
+    epoch = []
+    get_close_approach_info.each do |x|
+      epoch << x[0]['epoch_date_close_approach']
+    end
+    epoch
   end
 
   def get_relative_velocity
-    get_close_approach_info[0]['relative_velocity']
+    velocity = []
+    get_close_approach_info.each do |x|
+      velocity << x[0]['relative_velocity']
+    end
+    velocity
   end
 
   def get_km_s
-    get_relative_velocity['kilometers_per_second']
+    km_s = []
+    get_relative_velocity.each do |x|
+      km_s << x['kilometers_per_second']
+    end
+    km_s
   end
 
   def get_km_h
-    get_relative_velocity['kilometers_per_hour']
+    km_h = []
+    get_relative_velocity.each do |x|
+      km_h << x['kilometers_per_hour']
+    end
+    km_h
   end
 
   def get_mph
-    get_relative_velocity['miles_per_hour']
+    mph = []
+    get_relative_velocity.each do |x|
+      mph << x['miles_per_hour']
+    end
+    mph
   end
 
   def get_miss_distance
-    get_close_approach_info[0]['miss_distance']
+    miss_distance = []
+    get_close_approach_info.each do |x|
+      miss_distance << x[0]['miss_distance']
+    end
+    miss_distance
   end
 
   def get_astronomical
-    get_miss_distance['astronomical']
+    astronomical = []
+    get_miss_distance.each do |x|
+      astronomical << x['astronomical']
+    end
+    astronomical
   end
 
   def get_lunar
-    get_miss_distance['lunar']
+    lunar = []
+    get_miss_distance.each do |x|
+      lunar << x['lunar']
+    end
+    lunar
   end
 
   def get_kilometers
-    get_miss_distance['kilometers']
+    kilometers = []
+    get_miss_distance.each do |x|
+      kilometers << x['kilometers']
+    end
+    kilometers
   end
 
   def get_distance_miles
-    get_miss_distance['miles']
+    d_miles = []
+    get_miss_distance.each do |x|
+      d_miles << x['miles']
+    end
+    d_miles
   end
 
   def get_orbiting_body
-    get_close_approach_info[0]['orbiting_body']
+    orbit_body = []
+    get_close_approach_info.each do |x|
+      orbit_body << x[0]['orbiting_body']
+    end
+    orbit_body
   end
 end

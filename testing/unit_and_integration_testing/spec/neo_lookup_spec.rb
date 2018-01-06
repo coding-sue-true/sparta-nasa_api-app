@@ -98,51 +98,75 @@ describe Neoapi do
     end
 
     it "Near Earth Objects close approach date to respond as String" do
-      expect(@neoapi.get_close_approach_date).to be_kind_of(String)
+      @neoapi.get_close_approach_date.each do |x|
+        expect(x).to be_kind_of(String)
+      end
     end
 
     it "Near Earth Objects epoch date close approach to respond as an Integer" do
-      expect(@neoapi.get_epoch_date).to be_kind_of(Integer)
+      @neoapi.get_epoch_date.each do |x|
+        expect(x).to be_kind_of(Integer)
+      end
     end
 
     it "Near Earth Objects relative velocity to respond as a Hash" do
-      expect(@neoapi.get_relative_velocity).to be_kind_of(Hash)
+      @neoapi.get_relative_velocity.each do |x|
+        expect(x).to be_kind_of(Hash)
+      end
     end
 
     it "Near Earth Objects velocity km/s to respond as a string" do
-      expect(@neoapi.get_km_s).to be_kind_of(String)
+      @neoapi.get_km_s.each do |x|
+        expect(x).to be_kind_of(String)
+      end
     end
 
     it "Near Earth Objects velocity km/h to respond as a string" do
-      expect(@neoapi.get_km_h).to be_kind_of(String)
+      @neoapi.get_km_h.each do |x|
+        expect(x).to be_kind_of(String)
+      end
     end
 
     it "Near Earth Objects velocity mph to respond as a string" do
-      expect(@neoapi.get_mph).to be_kind_of(String)
+      @neoapi.get_mph.each do |x|
+        expect(x).to be_kind_of(String)
+      end
     end
 
     it "Near Earth Objects miss distance to respond as a Hash" do
-      expect(@neoapi.get_miss_distance).to be_kind_of(Hash)
+      @neoapi.get_miss_distance.each do |x|
+        expect(x).to be_kind_of(Hash)
+      end
     end
 
     it "Near Earth Objects miss distance_astronomical to respond as a string" do
-      expect(@neoapi.get_astronomical).to be_kind_of(String)
+      @neoapi.get_astronomical.each do |x|
+        expect(x).to be_kind_of(String)
+      end
     end
 
     it "Near Earth Objects miss distance_lunar to respond as a string" do
-      expect(@neoapi.get_lunar).to be_kind_of(String)
+      @neoapi.get_lunar.each do |x|
+        expect(x).to be_kind_of(String)
+      end
     end
 
     it "Near Earth Objects miss distance_kilometers to respond as a string" do
-      expect(@neoapi.get_kilometers).to be_kind_of(String)
+      @neoapi.get_kilometers.each do |x|
+        expect(x).to be_kind_of(String)
+      end
     end
 
     it "Near Earth Objects miss distance_miles to respond as a string" do
-      expect(@neoapi.get_distance_miles).to be_kind_of(String)
+      @neoapi.get_distance_miles.each do |x|
+        expect(x).to be_kind_of(String)
+      end
     end
 
     it "Near Earth Objects orbiting body to respond as a string" do
-      expect(@neoapi.get_orbiting_body).to be_kind_of(String)
+      @neoapi.get_orbiting_body.each do |x|
+        expect(x).to be_kind_of(String)
+      end
     end
   end
 end

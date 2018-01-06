@@ -104,50 +104,98 @@ class NeoLookupService
   end
 
   def get_close_approach_date
-    get_close_approach_info[0]['close_approach_date']
+    approach_date = []
+    get_close_approach_info.each do |x|
+      approach_date << x['close_approach_date']
+    end
+    approach_date
   end
 
   def get_epoch_date
-    get_close_approach_info[0]['epoch_date_close_approach']
+    epoch = []
+    get_close_approach_info.each do |x|
+      epoch << x['epoch_date_close_approach']
+    end
+    epoch
   end
 
   def get_relative_velocity
-    get_close_approach_info[0]['relative_velocity']
+    velocity = []
+    get_close_approach_info.each do |x|
+      velocity << x['relative_velocity']
+    end
+    velocity
   end
 
   def get_km_s
-    get_relative_velocity['kilometers_per_second']
+    km_s = []
+    get_relative_velocity.each do |x|
+      km_s << x['kilometers_per_second']
+    end
+    km_s
   end
 
   def get_km_h
-    get_relative_velocity['kilometers_per_hour']
+    km_h = []
+    get_relative_velocity.each do |x|
+      km_h << x['kilometers_per_hour']
+    end
+    km_h
   end
 
   def get_mph
-    get_relative_velocity['miles_per_hour']
+    mph = []
+    get_relative_velocity.each do |x|
+      mph << x['miles_per_hour']
+    end
+    mph
   end
 
   def get_miss_distance
-    get_close_approach_info[0]['miss_distance']
+    miss_distance = []
+    get_close_approach_info.each do |x|
+      miss_distance << x['miss_distance']
+    end
+    miss_distance
   end
 
   def get_astronomical
-    get_miss_distance['astronomical']
+    astronomical = []
+    get_miss_distance.each do |x|
+      astronomical << x['astronomical']
+    end
+    astronomical
   end
 
   def get_lunar
-    get_miss_distance['lunar']
+    lunar = []
+    get_miss_distance.each do |x|
+      lunar << x['lunar']
+    end
+    lunar
   end
 
   def get_kilometers
-    get_miss_distance['kilometers']
+    km = []
+    get_miss_distance.each do |x|
+      km << x['kilometers']
+    end
+    km
   end
 
   def get_distance_miles
-    get_miss_distance['miles']
+    miles = []
+    get_miss_distance.each do |x|
+      miles << x['miles']
+    end
+    miles
   end
 
   def get_orbiting_body
-    get_close_approach_info[0]['orbiting_body']
+    orbit_body = []
+    get_close_approach_info.each do |x|
+      orbit_body << x['orbiting_body']
+    end
+    orbit_body
   end
 end

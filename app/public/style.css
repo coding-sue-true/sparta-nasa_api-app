@@ -38,3 +38,9 @@ body {
 .card-img-top {
   width: 100%;
 }
+
+/*------------------SHOW ARTICLE --------------------*/
+
+#showimage {
+  width: 150px;
+}

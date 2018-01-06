@@ -3,6 +3,11 @@
 body {
   background-color: black;
   font-family: Playfair Display;
+  background-image: "https://www.nasa.gov/sites/default/files/thumbnails/image/naples.jpg";
+}
+
+.nav-link {
+  font-size: 18px;
 }
 
 #nav_bar {
@@ -37,10 +42,4 @@ body {
 }
 .card-img-top {
   width: 100%;
-}
-
-/*------------------SHOW ARTICLE --------------------*/
-
-#showimage {
-  width: 150px;
 }

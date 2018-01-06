@@ -31,6 +31,8 @@ class ArticlesController < Sinatra::Base
   # A get request to /new will respond with a template with our new form that the user can complete to add a new article
   get '/articles/new'  do
 
+    @title = "NASA"
+
     # Create a new instance of our Article object which will be empty but will allow our form partial to switch between a new and edit request
     @article = Article.new
 
@@ -41,6 +43,7 @@ class ArticlesController < Sinatra::Base
 
   # A get request to /articles/:id will respond with a the show template with the requested article
   get '/articles/:id' do
+    @title = "NASA"
 
     # Get the ID from the params and turn it in to an integer
     id = params[:id].to_i
@@ -55,7 +58,7 @@ class ArticlesController < Sinatra::Base
 
   # A article request to /articles/ will create a new article with the imformation the user entered which is stored in the params
   post '/articles/' do
-
+    
     # Create a new instance of our Article class
     article = Article.new
 

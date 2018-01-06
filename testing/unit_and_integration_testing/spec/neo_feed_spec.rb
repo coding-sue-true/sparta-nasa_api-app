@@ -84,75 +84,51 @@ describe Neoapi do
     end
 
     it "Near Earth Objects neo estimated diameter kilometers to respond as a Hash" do
-      @neoapi.get_km.each do |x|
-        expect(x).to be_kind_of(Hash)
-      end
+      expect(@neoapi.get_km).to be_kind_of(Hash)
     end
 
     it "Near Earth Objects neo estimated diameter km min to respond as Float" do
-      @neoapi.get_km_estimated_diameter_min.each do |x|
-        expect(x).to be_kind_of(Float)
-      end
+      expect(@neoapi.get_km_estimated_diameter_min).to be_kind_of(Float)
     end
 
     it "Near Earth Objects neo estimated diameter km max to respond as Float" do
-      @neoapi.get_km_estimated_diameter_max.each do |x|
-        expect(x).to be_kind_of(Float)
-      end
+      expect(@neoapi.get_km_estimated_diameter_max).to be_kind_of(Float)
     end
 
     it "Near Earth Objects neo estimated diameter meters to respond as a Hash" do
-      @neoapi.get_meters.each do |x|
-        expect(x).to be_kind_of(Hash)
-      end
+      expect(@neoapi.get_meters).to be_kind_of(Hash)
     end
 
     it "Near Earth Objects neo estimated diameter meters min to respond as a Float" do
-      @neoapi.get_meters_estimated_diameter_min.each do |x|
-        expect(x).to be_kind_of(Float)
-      end
+      expect(@neoapi.get_meters_estimated_diameter_min).to be_kind_of(Float)
     end
 
     it "Near Earth Objects neo estimated diameter meters max to respond as a Float" do
-      @neoapi.get_meters_estimated_diameter_max.each do |x|
-        expect(x).to be_kind_of(Float)
-      end
+      expect(@neoapi.get_meters_estimated_diameter_max).to be_kind_of(Float)
     end
 
     it "Near Earth Objects neo estimated diameter miles to respond as a Hash" do
-      @neoapi.get_miles.each do |x|
-        expect(x).to be_kind_of(Hash)
-      end
+      expect(@neoapi.get_miles).to be_kind_of(Hash)
     end
 
     it "Near Earth Objects neo estimated diameter miles min to respond as a Float" do
-      @neoapi.get_miles_estimated_diameter_min.each do |x|
-        expect(x).to be_kind_of(Float)
-      end
+      expect(@neoapi.get_miles_estimated_diameter_min).to be_kind_of(Float)
     end
 
     it "Near Earth Objects neo estimated diameter miles max to respond as a Float" do
-      @neoapi.get_miles_estimated_diameter_max.each do |x|
-        expect(x).to be_kind_of(Float)
-      end
+      expect(@neoapi.get_miles_estimated_diameter_max).to be_kind_of(Float)
     end
 
     it "Near Earth Objects neo estimated diameter feet to respond as a Hash" do
-      @neoapi.get_feet.each do |x|
-        expect(x).to be_kind_of(Hash)
-      end
+      expect(@neoapi.get_feet).to be_kind_of(Hash)
     end
 
     it "Near Earth Objects neo estimated diameter feet min to respond as a Float" do
-      @neoapi.get_feet_estimated_diameter_min.each do |x|
-        expect(x).to be_kind_of(Float)
-      end
+      expect(@neoapi.get_feet_estimated_diameter_min).to be_kind_of(Float)
     end
 
     it "Near Earth Objects neo estimated diameter feet max to respond as a Float" do
-      @neoapi.get_feet_estimated_diameter_max.each do |x|
-        expect(x).to be_kind_of(Float)
-      end
+      expect(@neoapi.get_feet_estimated_diameter_max).to be_kind_of(Float)
     end
 
     it "Near Earth Objects is potentially hazardous to respond as a boolean" do

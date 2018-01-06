@@ -106,99 +106,51 @@ class NeoFeedService
   end
 
   def get_km
-    km = []
-    get_neo_estimated_diameter.each do |x|
-      km << x['kilometers']
-    end
-    km
+    get_neo_estimated_diameter['kilometers']
   end
 
   def get_km_estimated_diameter_min
-    km_min = []
-    get_km.each do |x|
-      km_min << x['estimated_diameter_min']
-    end
-    km_min
+    get_km['estimated_diameter_min']
   end
 
   def get_km_estimated_diameter_max
-    km_max = []
-    get_km.each do |x|
-      km_max << x['estimated_diameter_max']
-    end
-    km_max
+    get_km['estimated_diameter_max']
   end
 
   def get_meters
-    m = []
-    get_neo_estimated_diameter.each do |x|
-      m << x['meters']
-    end
-    m
+    get_neo_estimated_diameter['meters']
   end
 
   def get_meters_estimated_diameter_min
-    m_min = []
-    get_meters.each do |x|
-      m_min << x['estimated_diameter_min']
-    end
-    m_min
+    get_meters['estimated_diameter_min']
   end
 
   def get_meters_estimated_diameter_max
-    m_max = []
-    get_meters.each do |x|
-      m_max << x['estimated_diameter_max']
-    end
-    m_max
+    get_meters['estimated_diameter_max']
   end
 
   def get_miles
-    miles = []
-    get_neo_estimated_diameter.each do |x|
-      miles << x['miles']
-    end
-    miles
+    get_neo_estimated_diameter['miles']
   end
 
   def get_miles_estimated_diameter_min
-    miles_min = []
-    get_miles.each do |x|
-      miles_min << x['estimated_diameter_min']
-    end
-    miles_min
+    get_miles['estimated_diameter_min']
   end
 
   def get_miles_estimated_diameter_max
-    miles_max =[]
-    get_miles.each do |x|
-      miles_mex << x['estimated_diameter_max']
-    end
-    miles_max
+    get_miles['estimated_diameter_max']
   end
 
   def get_feet
-    feet = []
-    get_neo_estimated_diameter.each do |x|
-      feet << x['feet']
-    end
-    feet
+    get_neo_estimated_diameter['feet']
   end
 
   def get_feet_estimated_diameter_min
-    feet_min = []
-    get_feet.each do |x|
-      feet_min << x['estimated_diameter_min']
-    end
-    feet_min
+    get_feet['estimated_diameter_min']
   end
 
   def get_feet_estimated_diameter_max
-    feet_max = []
-    get_feet.each do |x|
-      feet_max << x['estimated_diameter_max']
-    end
-    feet_max
+    get_feet['estimated_diameter_max']
   end
 
   def get_potentially_hazardous

@@ -23,6 +23,24 @@ describe 'Nasa API Unit Testing' do
     end
   end
 
+  context "index page should display Image of the Day" do
+
+    it "should display title of image of the day" do
+      get "/"
+      expect(last_response.body).to include("<h2>")
+    end
+
+    it "should display the image of the day" do
+      get "/"
+      expect(last_response.body).to include("alt='image'")
+    end
+
+    it "should display an explanation of the image" do
+      get "/"
+      expect(last_response.body).to include("<p id='explanation'>")
+    end
+  end
+
   context "should go to the asteroids page " do
 
     it "receive a status code of 200" do

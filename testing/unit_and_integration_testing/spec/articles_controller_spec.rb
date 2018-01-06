@@ -10,7 +10,7 @@ describe 'Articles Resource Unit Testing' do
     ArticlesController.new
   end
 
-  context "should go to the asteroids page " do
+  context "should go to the articles page" do
 
     it "receive a status code of 200" do
       get "/articles"

@@ -17,7 +17,7 @@ describe 'Nasa API Unit Testing' do
       expect(last_response.status).to eq 200
     end
 
-    it "recieve information as a string" do
+    it "receive information as a string" do
       get "/"
       expect(last_response.body).to be_kind_of(String)
     end
@@ -30,11 +30,40 @@ describe 'Nasa API Unit Testing' do
       expect(last_response.status).to eq 200
     end
 
-    it "recieve information as a string" do
+    it "receive information as a string" do
       get "/asteroids"
       expect(last_response.body).to be_kind_of(String)
     end
 
+  end
+
+  context "should display information about the asteroids" do
+
+    it "should display name of the asteroid" do
+      get '/asteroids'
+      expect(last_response.body).to include("Name")
+    end
+
+    it "should display id of the asteroid" do
+      get '/asteroids'
+      expect(last_response.body).to include("ID")
+    end
+
+    it "should display diameter of the asteroid" do
+      get '/asteroids'
+      expect(last_response.body).to include("Diameter")
+    end
+
+    it "should display asteroid's speed" do
+      get '/asteroids'
+      expect(last_response.body).to include("Speed")
+    end
+
+    it "should display missed body's surface and distance" do
+      get '/asteroids'
+      expect(last_response.body).to include("'s surface by")
+      expect(last_response.body).to include("miles")
+    end
   end
 
 end

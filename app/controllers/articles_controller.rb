@@ -1,3 +1,6 @@
+require 'sinatra'
+require 'sinatra/reloader' if development?
+
 class ArticlesController < Sinatra::Base
 
   # Sets root as the parent-directory of the current file

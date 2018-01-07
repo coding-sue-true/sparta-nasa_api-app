@@ -1,18 +1,18 @@
 <form action="/articles/<%= @article.id %>" method="POST">
   <div>
-    <label>Title</label>
-    <input type="text" name="title" id="articletitle" placeholder="Enter a title" value="<%= @article.title %>">
+    <label id="formtitle">Title</label>
+    <input type="text" name="title" id="articletitle" placeholder="Title" value="<%= @article.title %>" style="width:340px">
   </div>
   <div>
     <label>Body</label>
-    <textarea name="body" rows="8" cols="40" placeholder="The body of the post" id="articlebody"><%= @article.body %></textarea>
+    <textarea name="body" rows="8" cols="40" placeholder="Body of the article" id="articlebody"><%= @article.body %></textarea>
   </div>
   <div>
     <label>Image</label>
-    <input type="text" name="image" placeholder="Enter a title" id="articleimage" value="<%= @article.image %>">
+    <input type="text" name="image" placeholder="Image URL" id="articleimage" value="<%= @article.image %>" style="width:340px">
   </div>
   <div>
-    <input type="submit" value='Save Article' id="submitbtn">
+    <input type="submit" value='Save Article' id="submitbtn" class="btn btn-secondary btn-lg active">
   </div>
   <% if(@article.id) %>
     <input type="hidden" name="_method" value="PUT">

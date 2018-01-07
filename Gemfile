@@ -16,7 +16,9 @@ gem 'bootstrap-sass', '3.3.7'
 gem 'pg', '~> 0.18'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
-
+gem 'rspec'
+gem 'pry'
+gem 'cucumber'
 gem 'sinatra'
 gem 'json'
 gem 'http'

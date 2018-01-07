@@ -5,6 +5,10 @@ body {
   font-family: Playfair Display;
 }
 
+.nav-link {
+  font-size: 18px;
+}
+
 #nav_bar {
   padding: 20px;
 }
@@ -29,18 +33,67 @@ body {
   word-spacing: 3px;
 }
 
+/*-------------------ASTEROIDS PAGE-----------------*/
+
+h3 {
+  text-align: center;
+  color: white;
+}
+
 /*-------------------ARTICLES PAGE-----------------*/
 
 .card {
   width: 50%;
   margin-left: 25%;
+  text-align: center;
 }
 .card-img-top {
   width: 100%;
 }
 
+/*------------------NEW ARTICLE --------------------*/
+
+.new_article {
+  text-align: center;
+  background-image: url("images/giphy_1.gif");
+  background-size: 100%;
+  padding-bottom: 475px;
+  color: white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/*------------------EDIT ARTICLE --------------------*/
+
+.edit_article {
+  text-align: center;
+  background-image: url("images/edit_image.jpg");
+  background-size: 100%;
+  padding-bottom: 475px;
+  color: white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 /*------------------SHOW ARTICLE --------------------*/
 
-#showimage {
-  width: 150px;
+.showarticle {
+  text-align: center;
+  background-image: url("images/show_image.jpg");
+  background-size: 100%;
+  padding-bottom: 475px;
+  color: white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.showarticle p {
+  padding-left: 120px;
+  padding-right: 120px;
+  text-align: justify;
+}
+
+.btn-secondary {
+  padding: 9px 15px;
+  font-family: Playfair Display;
 }

@@ -1,10 +1,10 @@
 <div class="showarticle">
-  <img src="<%= @article.image %>" alt='image' width="150px">
+  <img src="<%= @article.image %>" alt='image' width="700px">
   <h1><%= @article.title %></h1>
-  <p><%= @article.body %></p>
-  <a href="/articles/<%= @article.id %>/edit" id='editarticle'>edit</a>
+  <p id="article_body"><%= @article.body %></p>
   <form action="/articles/<%= @article.id %>" method="POST">
+    <a href="/articles/<%= @article.id %>/edit" id='editarticle' class="btn btn-secondary btn-lg active">Edit</a>
     <input type="hidden" name="_method" value="DELETE">
-    <input type="submit" name="name" value="Delete" id='deletebtn'>
+    <input type="submit" class="btn btn-secondary btn-lg active" name="name" value="Delete" id='deletebtn'>
   </form>
 </div>

@@ -29,7 +29,8 @@ class Article
     conn = self.open_connection
     sql = "SELECT * FROM article WHERE id =#{id} LIMIT 1"
     articles = conn.exec(sql)
-    self.hydrate(articles[0])
+    article = self.hydrate(articles[0])
+    article
   end
 
   def self.destroy(id)

@@ -69,32 +69,32 @@ describe 'Articles Resource Unit Testing' do
   context "should go to the show article page" do
 
     it "receive a status code of 200" do
-      get "/articles/20"
+      get "/articles/1"
       expect(last_response.status).to eq 200
     end
 
     it "should show the title of the article" do
-      get "/articles/20"
+      get "/articles/1"
       expect(last_response.body).to include("<h1>")
     end
 
     it "should show the image of the article" do
-      get "/articles/20"
+      get "/articles/1"
       expect(last_response.body).to include("alt='image'")
     end
 
     it "should show the body of the article" do
-      get "/articles/20"
-      expect(last_response.body).to include("<p>")
+      get "/articles/1"
+      expect(last_response.body).to include("<p id='article_body'>")
     end
 
     it "should show the edit button" do
-      get "/articles/20"
+      get "/articles/1"
       expect(last_response.body).to include("id='editarticle'")
     end
 
     it "should show the delete button" do
-      get "/articles/20"
+      get "/articles/1"
       expect(last_response.body).to include("id='deletebtn'")
     end
   end
@@ -102,27 +102,27 @@ describe 'Articles Resource Unit Testing' do
   context "should go to the edit article page" do
 
     it "receive a status code of 200" do
-      get "/articles/20/edit"
+      get "/articles/1/edit"
       expect(last_response.status).to eq 200
     end
 
     it "should have a title field" do
-      get "/articles/20/edit"
+      get "/articles/1/edit"
       expect(last_response.body).to include("Title")
     end
 
     it "should have a body field" do
-      get "/articles/20/edit"
+      get "/articles/1/edit"
       expect(last_response.body).to include("Body")
     end
 
     it "should have an image field" do
-      get "/articles/20/edit"
+      get "/articles/1/edit"
       expect(last_response.body).to include("Image")
     end
 
     it "should have an option to save the article" do
-      get "/articles/20/edit"
+      get "/articles/1/edit"
       expect(last_response.body).to include("value='Save Article'")
     end
   end

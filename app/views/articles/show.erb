@@ -1,7 +1,7 @@
 <div class="showarticle">
   <img src="<%= @article.image %>" alt='image' width="700px">
   <h1><%= @article.title %></h1>
-  <p id="article_body"><%= @article.body %></p>
+  <p id='article_body'><%= @article.body %></p>
   <form action="/articles/<%= @article.id %>" method="POST">
     <a href="/articles/<%= @article.id %>/edit" id='editarticle' class="btn btn-secondary btn-lg active">Edit</a>
     <input type="hidden" name="_method" value="DELETE">

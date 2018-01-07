@@ -58,7 +58,7 @@ class ArticlesController < Sinatra::Base
 
   # A article request to /articles/ will create a new article with the imformation the user entered which is stored in the params
   post '/articles/' do
-    
+
     # Create a new instance of our Article class
     article = Article.new
 
@@ -75,8 +75,10 @@ class ArticlesController < Sinatra::Base
   end
 
 
-  # A put request to the /articles/:id will will update an existing article
+  # A put request to the /articles/:id will update an existing article
   put '/articles/:id'  do
+
+    @title = "NASA"
 
     # The id of the article we want to update, we pulled this information from request params
     id = params[:id].to_i
@@ -114,7 +116,8 @@ class ArticlesController < Sinatra::Base
 
   # A request to /articles/:id/edit will respond with a the edit template with the article data of the article we can want to update
   get '/articles/:id/edit'  do
-
+    @title = "NASA"
+    
     # The id of the article we want to update, we pulled this information from request params
     id = params[:id].to_i
 

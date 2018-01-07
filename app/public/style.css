@@ -3,7 +3,6 @@
 body {
   background-color: black;
   font-family: Playfair Display;
-  background-image: "https://www.nasa.gov/sites/default/files/thumbnails/image/naples.jpg";
 }
 
 .nav-link {
@@ -39,7 +38,55 @@ body {
 .card {
   width: 50%;
   margin-left: 25%;
+  text-align: center;
 }
 .card-img-top {
   width: 100%;
+}
+
+/*------------------NEW ARTICLE --------------------*/
+
+.new_article {
+  text-align: center;
+  background-image: url("images/giphy_1.gif");
+  background-size: 100%;
+  padding-bottom: 475px;
+  color: white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/*------------------EDIT ARTICLE --------------------*/
+
+.edit_article {
+  text-align: center;
+  background-image: url("images/edit_image.jpg");
+  background-size: 100%;
+  padding-bottom: 475px;
+  color: white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/*------------------SHOW ARTICLE --------------------*/
+
+.showarticle {
+  text-align: center;
+  background-image: url("images/show_image.jpg");
+  background-size: 100%;
+  padding-bottom: 475px;
+  color: white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.showarticle p {
+  padding-left: 120px;
+  padding-right: 120px;
+  text-align: justify;
+}
+
+.btn-secondary {
+  padding: 9px 15px;
+  font-family: Playfair Display;
 }

@@ -33,6 +33,13 @@ body {
   word-spacing: 3px;
 }
 
+/*-------------------ASTEROIDS PAGE-----------------*/
+
+h3 {
+  text-align: center;
+  color: white;
+}
+
 /*-------------------ARTICLES PAGE-----------------*/
 
 .card {

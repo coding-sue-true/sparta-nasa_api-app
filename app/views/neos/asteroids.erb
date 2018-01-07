@@ -1,9 +1,13 @@
 <% near_earth_objects = @asteroids['near_earth_objects'] %>
 <% neos_info = near_earth_objects[@date_today] %>
+<% element_count = @asteroids['element_count'] %>
 
-<div class="asteroids">
-  <div class="list-group">
-    <% neos_info.each do |element|%>
+<div class="asteroids_page">
+  <h3>Today, <%= element_count %> Asteroids passed close to Earth's Surface</h3>
+  <br>
+  <div class="asteroids">
+    <div class="list-group">
+      <% neos_info.each do |element|%>
       <a href="<%= element['nasa_jpl_url'] %>" target="_blank" class="list-group-item list-group-item-action flex-column align-items-start" id="asteroidlink">
         <div class="d-flex w-100 justify-content-between">
           <h4 class="mb-1">Name: <%= element['name'] %></h4>
@@ -11,10 +15,11 @@
         </div>
         <p class="mb-1">Diameter: <%= element['estimated_diameter']['meters']['estimated_diameter_max']%> meters</p>
         <% element['close_approach_data'].each do |data| %>
-          <p class="mb-1">Speed: <%= data['relative_velocity']['miles_per_hour'] %> mph | <%= data['relative_velocity']['kilometers_per_second'] %> km/s</p>
-          <small>It missed <%= data['orbiting_body'] %>'s surface by <%= data['miss_distance']['miles'] %> miles</small>
+        <p class="mb-1">Speed: <%= data['relative_velocity']['miles_per_hour'] %> mph | <%= data['relative_velocity']['kilometers_per_second'] %> km/s</p>
+        <small>It missed <%= data['orbiting_body'] %>'s surface by <%= data['miss_distance']['miles'] %> miles</small>
         <% end %>
       </a>
-    <% end %>
+      <% end %>
+    </div>
   </div>
 </div>

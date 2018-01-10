@@ -128,7 +128,7 @@ __Asteroids - Get '/asteroids'__
 - Cannot have more than 1000 requests in 1h
 - When there's more than 20 users accessing the homepage in 1s, it starts reducing its performance in terms of loading time
 - When there's over 1000 users at the same time in the page during 1min, the performance starts to slow down
-- Ideal performance of this page is with a maximum of 15users
+
 
 Test Plan: 450users/min
 ![articles](/testing/images/asteroidssummary1.png)

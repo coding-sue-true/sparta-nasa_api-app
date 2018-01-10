@@ -110,6 +110,7 @@ __Business Requirements__
 - I can have a lot of users on the page at the same time
   - Use case:
     - >1000 users access the required page
+    
 __Homepage - Get '/'__
 
 - Cannot have more than 1000 requests in 1h

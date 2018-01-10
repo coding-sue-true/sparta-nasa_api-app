@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="630" it="0" lt="630" ct="1" ts="1515583307261" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-1" dt="text" by="3447" sby="139" ng="7" na="7"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583307891" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-1" dt="text" by="254" sby="0" ng="7" na="7"/>
+<httpSample t="531" it="0" lt="531" ct="1" ts="1515583307362" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-2" dt="text" by="3447" sby="139" ng="6" na="6"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583307894" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-2" dt="text" by="254" sby="0" ng="6" na="6"/>
+<httpSample t="529" it="0" lt="529" ct="1" ts="1515583307462" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-3" dt="text" by="3447" sby="139" ng="6" na="6"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583307991" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-3" dt="text" by="254" sby="0" ng="6" na="6"/>
+<httpSample t="579" it="0" lt="579" ct="0" ts="1515583307565" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-4" dt="text" by="3447" sby="139" ng="6" na="6"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583308145" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-4" dt="text" by="253" sby="0" ng="6" na="6"/>
+<httpSample t="1614" it="0" lt="1614" ct="1" ts="1515583307863" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-7" dt="text" by="3447" sby="139" ng="19" na="19"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583309478" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-7" dt="text" by="254" sby="0" ng="19" na="19"/>
+<httpSample t="1887" it="0" lt="1887" ct="0" ts="1515583307663" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-5" dt="text" by="3447" sby="139" ng="18" na="18"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583309551" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-5" dt="text" by="254" sby="0" ng="18" na="18"/>
+<httpSample t="1676" it="0" lt="1676" ct="0" ts="1515583308066" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-9" dt="text" by="3447" sby="139" ng="19" na="19"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583309743" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-9" dt="text" by="253" sby="0" ng="19" na="19"/>
+<httpSample t="1809" it="0" lt="1809" ct="1" ts="1515583307965" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-8" dt="text" by="3447" sby="139" ng="19" na="19"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583309775" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-8" dt="text" by="254" sby="0" ng="19" na="19"/>
+<httpSample t="2187" it="0" lt="2187" ct="1" ts="1515583307767" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-6" dt="text" by="3447" sby="139" ng="19" na="19"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583309955" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-6" dt="text" by="254" sby="0" ng="19" na="19"/>
+<httpSample t="1739" it="0" lt="1739" ct="0" ts="1515583308266" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-11" dt="text" by="3447" sby="139" ng="19" na="19"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583310005" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-11" dt="text" by="255" sby="0" ng="19" na="19"/>
+<httpSample t="2136" it="0" lt="2136" ct="0" ts="1515583308166" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-10" dt="text" by="3447" sby="139" ng="21" na="21"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583310304" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-10" dt="text" by="255" sby="0" ng="21" na="21"/>
+<httpSample t="1963" it="0" lt="1963" ct="0" ts="1515583308364" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-12" dt="text" by="3447" sby="139" ng="20" na="20"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583310327" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-12" dt="text" by="255" sby="0" ng="20" na="20"/>
+<httpSample t="1992" it="0" lt="1992" ct="1" ts="1515583308463" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-13" dt="text" by="3447" sby="139" ng="20" na="20"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583310455" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-13" dt="text" by="254" sby="0" ng="20" na="20"/>
+<httpSample t="2007" it="0" lt="2007" ct="0" ts="1515583308568" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-14" dt="text" by="3447" sby="139" ng="21" na="21"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583310576" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-14" dt="text" by="255" sby="0" ng="21" na="21"/>
+<httpSample t="1980" it="0" lt="1980" ct="1" ts="1515583308665" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-15" dt="text" by="3447" sby="139" ng="20" na="20"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583310646" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-15" dt="text" by="255" sby="0" ng="20" na="20"/>
+<httpSample t="2094" it="0" lt="2094" ct="0" ts="1515583308765" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-16" dt="text" by="3447" sby="139" ng="21" na="21"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583310860" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-16" dt="text" by="255" sby="0" ng="21" na="21"/>
+<httpSample t="1918" it="0" lt="1918" ct="1" ts="1515583308968" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-18" dt="text" by="3447" sby="139" ng="21" na="21"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583310886" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-18" dt="text" by="255" sby="0" ng="21" na="21"/>
+<httpSample t="2120" it="0" lt="2120" ct="1" ts="1515583309065" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-19" dt="text" by="3447" sby="139" ng="23" na="23"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583311185" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-19" dt="text" by="255" sby="0" ng="23" na="23"/>
+<httpSample t="2340" it="0" lt="2340" ct="0" ts="1515583308869" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-17" dt="text" by="3447" sby="139" ng="22" na="22"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583311210" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-17" dt="text" by="255" sby="0" ng="22" na="22"/>
+<httpSample t="2135" it="0" lt="2135" ct="0" ts="1515583309165" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-20" dt="text" by="3447" sby="139" ng="22" na="22"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583311300" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-20" dt="text" by="255" sby="0" ng="22" na="22"/>
+<httpSample t="1984" it="0" lt="1984" ct="0" ts="1515583309366" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-22" dt="text" by="3447" sby="139" ng="21" na="21"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583311350" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-22" dt="text" by="255" sby="0" ng="21" na="21"/>
+<httpSample t="2144" it="0" lt="2144" ct="1" ts="1515583309268" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-21" dt="text" by="3447" sby="139" ng="21" na="21"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583311412" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-21" dt="text" by="255" sby="0" ng="21" na="21"/>
+<httpSample t="1997" it="0" lt="1997" ct="0" ts="1515583309469" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-23" dt="text" by="3447" sby="139" ng="20" na="20"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583311467" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-23" dt="text" by="255" sby="0" ng="20" na="20"/>
+<httpSample t="1933" it="0" lt="1933" ct="0" ts="1515583309566" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-24" dt="text" by="3447" sby="139" ng="20" na="20"/>
+<sample t="1" it="0" lt="0" ct="0" ts="1515583311499" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-24" dt="text" by="254" sby="0" ng="20" na="20"/>
+<httpSample t="1912" it="0" lt="1912" ct="0" ts="1515583309669" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-25" dt="text" by="3447" sby="139" ng="20" na="20"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583311582" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-25" dt="text" by="255" sby="0" ng="20" na="20"/>
+<httpSample t="1836" it="0" lt="1836" ct="0" ts="1515583309769" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-26" dt="text" by="3447" sby="139" ng="19" na="19"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583311605" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-26" dt="text" by="255" sby="0" ng="19" na="19"/>
+<httpSample t="1807" it="0" lt="1807" ct="0" ts="1515583309868" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-27" dt="text" by="3447" sby="139" ng="19" na="19"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583311675" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-27" dt="text" by="255" sby="0" ng="19" na="19"/>
+<httpSample t="1774" it="0" lt="1774" ct="1" ts="1515583309967" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-28" dt="text" by="3447" sby="139" ng="18" na="18"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583311742" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-28" dt="text" by="255" sby="0" ng="18" na="18"/>
+<httpSample t="1776" it="0" lt="1776" ct="1" ts="1515583310066" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-29" dt="text" by="3447" sby="139" ng="18" na="18"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583311842" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-29" dt="text" by="255" sby="0" ng="18" na="18"/>
+<httpSample t="1701" it="0" lt="1701" ct="1" ts="1515583310165" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-30" dt="text" by="3447" sby="139" ng="17" na="17"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583311866" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-30" dt="text" by="255" sby="0" ng="17" na="17"/>
+<httpSample t="1751" it="0" lt="1751" ct="1" ts="1515583310268" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-31" dt="text" by="3447" sby="139" ng="18" na="18"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583312020" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-31" dt="text" by="255" sby="0" ng="18" na="18"/>
+<httpSample t="1753" it="0" lt="1753" ct="0" ts="1515583310366" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-32" dt="text" by="3447" sby="139" ng="18" na="18"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583312119" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-32" dt="text" by="255" sby="0" ng="18" na="18"/>
+<httpSample t="1725" it="0" lt="1725" ct="1" ts="1515583310465" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-33" dt="text" by="3447" sby="139" ng="18" na="18"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583312191" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-33" dt="text" by="255" sby="0" ng="18" na="18"/>
+<httpSample t="1710" it="0" lt="1710" ct="0" ts="1515583310570" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-34" dt="text" by="3447" sby="139" ng="18" na="18"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583312281" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-34" dt="text" by="255" sby="0" ng="18" na="18"/>
+<httpSample t="1646" it="0" lt="1646" ct="0" ts="1515583310666" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-35" dt="text" by="3447" sby="139" ng="17" na="17"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583312312" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-35" dt="text" by="255" sby="0" ng="17" na="17"/>
+<httpSample t="1691" it="0" lt="1691" ct="0" ts="1515583310770" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-36" dt="text" by="3447" sby="139" ng="17" na="17"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583312461" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-36" dt="text" by="255" sby="0" ng="17" na="17"/>
+<httpSample t="2277" it="0" lt="2277" ct="1" ts="1515583310868" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-37" dt="text" by="3447" sby="139" ng="23" na="23"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583313146" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-37" dt="text" by="254" sby="0" ng="23" na="23"/>
+<httpSample t="2201" it="0" lt="2201" ct="1" ts="1515583310968" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-38" dt="text" by="3447" sby="139" ng="22" na="22"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583313169" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-38" dt="text" by="255" sby="0" ng="22" na="22"/>
+<httpSample t="2736" it="0" lt="2736" ct="1" ts="1515583311167" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-40" dt="text" by="3447" sby="139" ng="29" na="29"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583313904" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-40" dt="text" by="255" sby="0" ng="29" na="29"/>
+<httpSample t="2856" it="0" lt="2856" ct="1" ts="1515583311069" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-39" dt="text" by="3447" sby="139" ng="28" na="28"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583313925" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-39" dt="text" by="255" sby="0" ng="28" na="28"/>
+<httpSample t="2845" it="0" lt="2845" ct="1" ts="1515583311267" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-41" dt="text" by="3447" sby="139" ng="29" na="29"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583314112" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-41" dt="text" by="255" sby="0" ng="29" na="29"/>
+<httpSample t="2814" it="0" lt="2814" ct="0" ts="1515583311367" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-42" dt="text" by="3447" sby="139" ng="29" na="29"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583314182" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-42" dt="text" by="254" sby="0" ng="29" na="29"/>
+<httpSample t="2769" it="0" lt="2769" ct="1" ts="1515583311467" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-43" dt="text" by="3447" sby="139" ng="28" na="28"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583314236" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-43" dt="text" by="255" sby="0" ng="28" na="28"/>
+<httpSample t="2757" it="0" lt="2757" ct="1" ts="1515583311572" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-44" dt="text" by="3447" sby="139" ng="28" na="28"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583314329" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-44" dt="text" by="255" sby="0" ng="28" na="28"/>
+<httpSample t="2697" it="0" lt="2697" ct="0" ts="1515583311768" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-46" dt="text" by="3447" sby="139" ng="28" na="28"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583314466" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-46" dt="text" by="255" sby="0" ng="28" na="28"/>
+<httpSample t="3042" it="0" lt="3042" ct="0" ts="1515583311669" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-45" dt="text" by="3447" sby="139" ng="30" na="30"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583314711" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-45" dt="text" by="255" sby="0" ng="30" na="30"/>
+<httpSample t="2928" it="0" lt="2928" ct="1" ts="1515583311867" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-47" dt="text" by="3447" sby="139" ng="30" na="30"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583314795" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-47" dt="text" by="255" sby="0" ng="30" na="30"/>
+<httpSample t="2847" it="0" lt="2847" ct="0" ts="1515583311970" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-48" dt="text" by="3447" sby="139" ng="29" na="29"/>
+<sample t="1" it="0" lt="0" ct="0" ts="1515583314817" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-48" dt="text" by="255" sby="0" ng="29" na="29"/>
+<httpSample t="2983" it="0" lt="2983" ct="1" ts="1515583312172" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-50" dt="text" by="3447" sby="139" ng="31" na="31"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583315156" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-50" dt="text" by="255" sby="0" ng="31" na="31"/>
+<httpSample t="3119" it="0" lt="3119" ct="1" ts="1515583312067" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-49" dt="text" by="3447" sby="139" ng="31" na="31"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583315186" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-49" dt="text" by="255" sby="0" ng="31" na="31"/>
+<httpSample t="2854" it="0" lt="2854" ct="1" ts="1515583312372" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-52" dt="text" by="3447" sby="139" ng="30" na="30"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583315226" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-52" dt="text" by="255" sby="0" ng="30" na="30"/>
+<httpSample t="2974" it="0" lt="2974" ct="0" ts="1515583312272" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-51" dt="text" by="3447" sby="139" ng="29" na="29"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583315247" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-51" dt="text" by="254" sby="0" ng="29" na="29"/>
+<httpSample t="2806" it="0" lt="2806" ct="1" ts="1515583312572" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-54" dt="text" by="3447" sby="139" ng="30" na="30"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583315378" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-54" dt="text" by="255" sby="0" ng="30" na="30"/>
+<httpSample t="2746" it="0" lt="2746" ct="0" ts="1515583312774" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-56" dt="text" by="3447" sby="139" ng="30" na="30"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583315520" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-56" dt="text" by="255" sby="0" ng="30" na="30"/>
+<httpSample t="2611" it="0" lt="2611" ct="1" ts="1515583312973" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-58" dt="text" by="3447" sby="139" ng="30" na="30"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583315585" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-58" dt="text" by="255" sby="0" ng="30" na="30"/>
+<httpSample t="2258" it="0" lt="2258" ct="1" ts="1515583313472" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-63" dt="text" by="3447" sby="139" ng="30" na="30"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583315731" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-63" dt="text" by="255" sby="0" ng="30" na="30"/>
+<httpSample t="3435" it="0" lt="3435" ct="0" ts="1515583312672" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-55" dt="text" by="3447" sby="139" ng="33" na="33"/>
+<sample t="1" it="0" lt="0" ct="0" ts="1515583316108" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-55" dt="text" by="255" sby="0" ng="33" na="33"/>
+<httpSample t="3143" it="0" lt="3143" ct="1" ts="1515583313173" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-60" dt="text" by="3447" sby="139" ng="34" na="34"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583316317" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-60" dt="text" by="255" sby="0" ng="34" na="34"/>
+<httpSample t="3336" it="0" lt="3336" ct="1" ts="1515583313072" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-59" dt="text" by="3447" sby="139" ng="34" na="34"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583316409" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-59" dt="text" by="255" sby="0" ng="34" na="34"/>
+<httpSample t="3144" it="0" lt="3144" ct="1" ts="1515583313372" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-62" dt="text" by="3447" sby="139" ng="34" na="34"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583316517" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-62" dt="text" by="255" sby="0" ng="34" na="34"/>
+<httpSample t="3316" it="0" lt="3316" ct="1" ts="1515583313272" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-61" dt="text" by="3447" sby="139" ng="34" na="34"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583316588" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-61" dt="text" by="255" sby="0" ng="34" na="34"/>
+<httpSample t="3747" it="0" lt="3747" ct="0" ts="1515583312874" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-57" dt="text" by="3447" sby="139" ng="33" na="33"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583316621" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-57" dt="text" by="255" sby="0" ng="33" na="33"/>
+<httpSample t="3078" it="0" lt="3078" ct="1" ts="1515583313574" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-64" dt="text" by="3447" sby="139" ng="32" na="32"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583316653" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-64" dt="text" by="255" sby="0" ng="32" na="32"/>
+<httpSample t="4225" it="0" lt="4225" ct="1" ts="1515583312473" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-53" dt="text" by="3447" sby="139" ng="32" na="32"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583316698" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-53" dt="text" by="255" sby="0" ng="32" na="32"/>
+<httpSample t="2954" it="0" lt="2954" ct="1" ts="1515583313773" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-66" dt="text" by="3447" sby="139" ng="31" na="31"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583316727" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-66" dt="text" by="255" sby="0" ng="31" na="31"/>
+<httpSample t="2800" it="0" lt="2800" ct="1" ts="1515583313975" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-68" dt="text" by="3447" sby="139" ng="30" na="30"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583316775" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-68" dt="text" by="255" sby="0" ng="30" na="30"/>
+<httpSample t="2961" it="0" lt="2961" ct="1" ts="1515583313874" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-67" dt="text" by="3447" sby="139" ng="30" na="30"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583316835" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-67" dt="text" by="255" sby="0" ng="30" na="30"/>
+<httpSample t="2802" it="0" lt="2802" ct="1" ts="1515583314072" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-69" dt="text" by="3447" sby="139" ng="29" na="29"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583316875" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-69" dt="text" by="255" sby="0" ng="29" na="29"/>
+<httpSample t="3237" it="0" lt="3237" ct="0" ts="1515583313672" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-65" dt="text" by="3447" sby="139" ng="29" na="29"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583316909" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-65" dt="text" by="255" sby="0" ng="29" na="29"/>
+<httpSample t="2854" it="0" lt="2854" ct="0" ts="1515583314171" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-70" dt="text" by="3447" sby="139" ng="29" na="29"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583317025" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-70" dt="text" by="255" sby="0" ng="29" na="29"/>
+<httpSample t="2793" it="0" lt="2793" ct="1" ts="1515583314272" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-71" dt="text" by="3447" sby="139" ng="28" na="28"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583317065" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-71" dt="text" by="255" sby="0" ng="28" na="28"/>
+<httpSample t="2760" it="0" lt="2760" ct="1" ts="1515583314373" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-72" dt="text" by="3447" sby="139" ng="28" na="28"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583317133" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-72" dt="text" by="255" sby="0" ng="28" na="28"/>
+<httpSample t="2767" it="0" lt="2767" ct="1" ts="1515583314472" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-73" dt="text" by="3447" sby="139" ng="28" na="28"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583317240" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-73" dt="text" by="255" sby="0" ng="28" na="28"/>
+<httpSample t="2707" it="0" lt="2707" ct="1" ts="1515583314572" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-74" dt="text" by="3447" sby="139" ng="27" na="27"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583317280" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-74" dt="text" by="255" sby="0" ng="27" na="27"/>
+<httpSample t="2661" it="0" lt="2661" ct="0" ts="1515583314676" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-75" dt="text" by="3447" sby="139" ng="26" na="26"/>
+<httpSample t="2566" it="0" lt="2566" ct="1" ts="1515583314771" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-76" dt="text" by="3447" sby="139" ng="26" na="26"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583317337" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-75" dt="text" by="254" sby="0" ng="26" na="26"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583317337" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-76" dt="text" by="255" sby="0" ng="26" na="26"/>
+<httpSample t="2455" it="0" lt="2455" ct="1" ts="1515583314972" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-78" dt="text" by="3447" sby="139" ng="24" na="24"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583317427" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-78" dt="text" by="255" sby="0" ng="24" na="24"/>
+<httpSample t="2552" it="0" lt="2552" ct="0" ts="1515583314876" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-77" dt="text" by="3447" sby="139" ng="23" na="23"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583317428" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-77" dt="text" by="255" sby="0" ng="23" na="23"/>
+<httpSample t="2298" it="0" lt="2298" ct="1" ts="1515583315177" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-80" dt="text" by="3447" sby="139" ng="22" na="22"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583317475" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-80" dt="text" by="255" sby="0" ng="22" na="22"/>
+<httpSample t="2403" it="0" lt="2403" ct="0" ts="1515583315076" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-79" dt="text" by="3447" sby="139" ng="21" na="21"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583317479" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-79" dt="text" by="255" sby="0" ng="21" na="21"/>
+<httpSample t="2268" it="0" lt="2268" ct="1" ts="1515583315277" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-81" dt="text" by="3447" sby="139" ng="20" na="20"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583317545" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-81" dt="text" by="255" sby="0" ng="20" na="20"/>
+<httpSample t="2174" it="0" lt="2174" ct="1" ts="1515583315373" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-82" dt="text" by="3447" sby="139" ng="19" na="19"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583317547" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-82" dt="text" by="255" sby="0" ng="19" na="19"/>
+<httpSample t="2133" it="0" lt="2133" ct="0" ts="1515583315474" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-83" dt="text" by="3447" sby="139" ng="18" na="18"/>
+<httpSample t="1932" it="0" lt="1932" ct="0" ts="1515583315676" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-85" dt="text" by="3447" sby="139" ng="18" na="18"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583317608" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-83" dt="text" by="255" sby="0" ng="18" na="18"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583317608" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-85" dt="text" by="255" sby="0" ng="18" na="18"/>
+<httpSample t="2090" it="0" lt="2090" ct="1" ts="1515583315572" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-84" dt="text" by="3447" sby="139" ng="16" na="16"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583317663" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-84" dt="text" by="255" sby="0" ng="16" na="16"/>
+<httpSample t="1854" it="0" lt="1854" ct="0" ts="1515583315874" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-87" dt="text" by="3447" sby="139" ng="15" na="15"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583317728" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-87" dt="text" by="254" sby="0" ng="15" na="15"/>
+<httpSample t="1957" it="0" lt="1957" ct="1" ts="1515583315776" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-86" dt="text" by="3447" sby="139" ng="14" na="14"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583317733" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-86" dt="text" by="255" sby="0" ng="14" na="14"/>
+<httpSample t="1843" it="0" lt="1843" ct="1" ts="1515583315977" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-88" dt="text" by="3447" sby="139" ng="13" na="13"/>
+<httpSample t="1742" it="0" lt="1742" ct="1" ts="1515583316078" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-89" dt="text" by="3447" sby="139" ng="13" na="13"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583317820" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-88" dt="text" by="255" sby="0" ng="13" na="13"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583317821" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-89" dt="text" by="255" sby="0" ng="13" na="13"/>
+<httpSample t="1685" it="0" lt="1685" ct="0" ts="1515583316177" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-90" dt="text" by="3447" sby="139" ng="11" na="11"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583317862" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-90" dt="text" by="255" sby="0" ng="11" na="11"/>
+<httpSample t="1600" it="0" lt="1600" ct="0" ts="1515583316276" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-91" dt="text" by="3447" sby="139" ng="10" na="10"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583317876" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-91" dt="text" by="255" sby="0" ng="10" na="10"/>
+<httpSample t="1542" it="0" lt="1542" ct="0" ts="1515583316378" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-92" dt="text" by="3447" sby="139" ng="9" na="9"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583317920" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-92" dt="text" by="255" sby="0" ng="9" na="9"/>
+<httpSample t="1466" it="0" lt="1466" ct="0" ts="1515583316479" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-93" dt="text" by="3447" sby="139" ng="8" na="8"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583317945" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-93" dt="text" by="255" sby="0" ng="8" na="8"/>
+<httpSample t="1400" it="0" lt="1400" ct="1" ts="1515583316577" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-94" dt="text" by="3447" sby="139" ng="7" na="7"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583317977" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-94" dt="text" by="255" sby="0" ng="7" na="7"/>
+<httpSample t="1229" it="0" lt="1229" ct="1" ts="1515583316777" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-96" dt="text" by="3447" sby="139" ng="6" na="6"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583318006" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-96" dt="text" by="255" sby="0" ng="6" na="6"/>
+<httpSample t="1388" it="0" lt="1388" ct="0" ts="1515583316676" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-95" dt="text" by="3447" sby="139" ng="5" na="5"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583318064" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-95" dt="text" by="255" sby="0" ng="5" na="5"/>
+<httpSample t="1225" it="0" lt="1225" ct="0" ts="1515583316876" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-97" dt="text" by="3447" sby="139" ng="4" na="4"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583318101" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-97" dt="text" by="255" sby="0" ng="4" na="4"/>
+<httpSample t="1152" it="0" lt="1152" ct="0" ts="1515583316978" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-98" dt="text" by="3447" sby="139" ng="3" na="3"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583318131" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-98" dt="text" by="255" sby="0" ng="3" na="3"/>
+<httpSample t="999" it="0" lt="999" ct="1" ts="1515583317177" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-100" dt="text" by="3447" sby="139" ng="2" na="2"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583318177" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-100" dt="text" by="256" sby="0" ng="2" na="2"/>
+<httpSample t="1119" it="0" lt="1119" ct="0" ts="1515583317076" s="true" lb="GET &apos;/&apos; - HTTP Request" rc="200" rm="OK" tn="HomePage - Thread Group 1-99" dt="text" by="3447" sby="139" ng="1" na="1"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515583318195" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="HomePage - Thread Group 1-99" dt="text" by="255" sby="0" ng="1" na="1"/>
+
+</testResults>

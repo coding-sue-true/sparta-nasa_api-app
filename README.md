@@ -96,6 +96,41 @@ A report of this tests can be found in
 testing/ui_testing/features/reports/test.html
 ```
 
+##### Performance Testing
+
+__Business Requirements__
+- 100 users can access the website at the same time
+  - Use case:
+    - User access the required page
+
+- Users can use the information provided in the pages as many times as they want
+  - Use case:
+    - User access the required page _n_ times
+
+- I can have a lot of users on the page at the same time
+  - Use case:
+    - >1000 users access the required page
+__Homepage - Get '/'__
+
+- Cannot have more than 1000 requests in 1h
+- When there's more than 20 users accessing the homepage in 1s, it starts reducing its performance in terms of loading time
+- When there's over 1000 users at the same time in the page during 1min, the performance starts to slow down
+- Ideal performance of this page is with a maximum of 15users
+
+__Asteroids - Get '/asteroids'__
+
+- Cannot have more than 1000 requests in 1h
+- When there's more than 20 users accessing the homepage in 1s, it starts reducing its performance in terms of loading time
+- When there's over 1000 users at the same time in the page during 1min, the performance starts to slow down
+- Ideal performance of this page is with a maximum of 15users
+
+
+__Articles - Get '/articles'__
+
+- When there's more than 20 users accessing the homepage in 1s, it starts reducing its performance in terms of loading time
+- When there's over 1000 users at the same time in the page during 1min, the performance starts to slow down
+
+![articles](/testing/images/articlessummary1.png)
 
 
 #### Resources

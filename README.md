@@ -107,18 +107,21 @@ __Business Requirements__
 - Users can use the information provided in the pages as many times as they want
   - Use case:
     - User access the required page _n_ times
-    
+
 
 - I can have a lot of users on the page at the same time
   - Use case:
-    - \>1000 users access the required page
+    - \>1000 users remain in the required page
 
 __Homepage - Get '/'__
 
 - Cannot have more than 1000 requests in 1h
 - When there's more than 20 users accessing the homepage in 1s, it starts reducing its performance in terms of loading time
 - When there's over 1000 users at the same time in the page during 1min, the performance starts to slow down
-- Ideal performance of this page is with a maximum of 15users
+
+Test Case: 40users/min
+![articles](/testing/images/homepagesummary1.png)
+
 
 __Asteroids - Get '/asteroids'__
 
@@ -127,14 +130,20 @@ __Asteroids - Get '/asteroids'__
 - When there's over 1000 users at the same time in the page during 1min, the performance starts to slow down
 - Ideal performance of this page is with a maximum of 15users
 
+Test Plan: 450users/min
+![articles](/testing/images/asteroidssummary1.png)
+
+
 
 __Articles - Get '/articles'__
 
 - When there's more than 20 users accessing the homepage in 1s, it starts reducing its performance in terms of loading time
-- When there's over 1000 users at the same time in the page during 1min, the performance starts to slow down
+- When there's over 1000 users at the same time in the page during 1min the performance slows down but is tolerable -> more tests required
 
+Test Case: 1250users/min
 ![articles](/testing/images/articlessummary1.png)
 
+![articles](/testing/images/articlessummary2.png)
 
 #### Resources
 - http://sinatrarb.com/intro.html

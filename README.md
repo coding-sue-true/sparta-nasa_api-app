@@ -103,14 +103,16 @@ __Business Requirements__
   - Use case:
     - User access the required page
 
+
 - Users can use the information provided in the pages as many times as they want
   - Use case:
     - User access the required page _n_ times
+    
 
 - I can have a lot of users on the page at the same time
   - Use case:
-    - >1000 users access the required page
-    
+    - \>1000 users access the required page
+
 __Homepage - Get '/'__
 
 - Cannot have more than 1000 requests in 1h

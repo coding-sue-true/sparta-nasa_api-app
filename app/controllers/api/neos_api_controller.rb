@@ -10,9 +10,9 @@ class NeosApiController < Sinatra::Base
   set :views, Proc.new { File.join(root, "views") }
 
   # Enables the reloader so we dont need to keep restarting the server
-  configure :development do
-    register Sinatra::Reloader
-  end
+  # configure :development do
+  #   register Sinatra::Reloader
+  # end
 
   # A get request to the / route will respond with our index with NASA's picture of the day (consumed from their API)
   get '/' do

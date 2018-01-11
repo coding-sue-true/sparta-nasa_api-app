@@ -1,5 +1,5 @@
 require 'sinatra'
-require 'sinatra/reloader' if development?
+# require 'sinatra/reloader' if development?
 
 class ArticlesController < Sinatra::Base
 
@@ -10,9 +10,9 @@ class ArticlesController < Sinatra::Base
   set :views, Proc.new { File.join(root, "views") }
 
   # Enables the reloader so we dont need to keep restarting the server
-  configure :development do
-      register Sinatra::Reloader
-  end
+  # configure :development do
+  #     register Sinatra::Reloader
+  # end
 
 
   get '/articles' do
@@ -117,7 +117,7 @@ class ArticlesController < Sinatra::Base
   # A request to /articles/:id/edit will respond with a the edit template with the article data of the article we can want to update
   get '/articles/:id/edit'  do
     @title = "NASA"
-    
+
     # The id of the article we want to update, we pulled this information from request params
     id = params[:id].to_i
 
